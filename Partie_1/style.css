@@ -1,0 +1,175 @@
+body { background: #eee }
+
+#Fellows p
+{
+	margin-top: 10px;
+	margin-left: 10%;
+	font-size: 1.5em;
+}
+
+.nav-center 
+{  
+  text-align: center;
+}
+
+#Fellowsmenu a
+{
+	height: 30px;
+	padding-top: 10px;
+}
+
+
+
+.container-fluid 
+{ 	
+	max-width: 1200px; 
+}
+
+.card
+{
+	background: #fff;
+	box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+	img {width: 100%;}
+}
+
+[class*="row"] 
+{
+	justify-content: center;
+}
+
+[class*="col-"] 
+{
+	background: #efefef;
+	border: 1px solid #ddd;
+	padding-top: .75rem;
+	padding-bottom: .75rem;
+	width: 100%;
+}
+
+
+
+.card img
+{
+	position: relative;
+	opacity: 0.4;
+}
+
+.aside1
+{
+	position: absolute;
+}
+
+.card img:hover 
+{
+    opacity: 1;
+}
+
+.aside1 h6
+{
+	font-family: Arial;
+	position: absolute;
+	opacity: 0.8;
+	background-color: white;
+	border-radius: 10px;
+	font-size: 20px;
+	left: 40px;
+	top: 20px;
+	width: 150px;
+	height: 100px;
+	text-align: center;
+	padding-top: 20px;
+}
+
+.aside1:hover h6
+{
+	visibility: hidden;
+}
+
+.aside1 h7
+{
+	font-family: Arial;
+	position: absolute;
+	color: white;
+	font-size: 40px;
+	top: 170px;
+	left: 50px;
+}
+
+.aside1:hover h7
+{
+	font-size: 20px;
+	top: 240px;
+	left: 80px;
+}
+
+.aside2 h7
+{
+	font-family: Arial;
+	position: absolute;
+	color: white;
+	font-size: 40px;
+	top: 170px;
+	left: 60px;
+}
+
+.aside2:hover h7
+{
+	visibility: hidden;
+}
+
+.aside3 h6
+{
+	font-family: Arial;
+	position: absolute;
+	opacity: 0.8;
+	background-color: white;
+	border-radius: 10px;
+	font-size: 20px;
+	left: 40px;
+	top: 20px;
+	width: 150px;
+	height: 100px;
+	text-align: center;
+	padding-top: 20px;
+}
+
+.aside3:hover h6
+{
+	visibility: hidden;
+}
+
+.display-4
+{
+	margin-left: 30px;
+	font-size: 1.9em;
+}
+
+.text_photo
+{  
+  display: flex;
+  justify-content: center;
+}
+
+.bouton
+{  
+  text-align: center;
+  margin-top: -100px;
+}
+
+.jumbotron
+{  
+  display: flex;
+  text-align: space-around;
+  margin-top: -50px;
+}
+
+.jumbotron p
+{  
+  font-size: 1em;
+}
+
+#footer
+{
+	display: flex;
+	justify-content: space-around;
+}
