@@ -1,0 +1,478 @@
+/* PARAMETRAGE FONTS */
+
+@font-face {
+	font-family: 'tngan';
+	src: url('fonts/tngan.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'anirb___';
+	src: url('fonts/anirb___.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'anirm___';
+	src: url('fonts/anirm___.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* PARAMETRAGE GENERAUX */
+
+body {
+  font-size: 1.2rem;
+  font-family: 'anirm___';
+}
+
+section {
+	padding: 5%;
+}
+
+#fellows, #hunters, #join {
+	background-image: url(images/bg_light.png);
+}
+
+#reward, #about, #contact {
+	background-image: url(images/bg_dark.png);
+}
+
+h3{
+	margin-bottom: 3%;
+}
+
+
+/*NAV */
+
+#navBar {
+	background-color: #ff6b00 !important;
+}
+
+#navBar a{
+	color: white;
+	font-size: 2rem;
+}
+
+#navBar p{
+	color: white;
+	font-size: 2rem;
+	padding: 0;
+}
+
+#navBar a:hover {
+	text-decoration: underline;
+}
+
+/*CAROUSEL*/
+
+
+#carouselCaption {
+
+	top: 50%;
+	transform: translateY(-50%);
+	bottom: initial;
+	font-size: 3.5rem;
+	font-family: "anirb___"
+}
+
+.darkVador {
+	font-size: 3rem;
+}
+
+
+/* FELLOWS */
+
+/* Titres */
+
+.deco1, .deco2 {
+	font-family: "tngan";
+	color: #ff6b00;
+	text-align: center;
+}
+
+.deco2 {
+	display: none;
+}
+
+#fellows a {
+	color: #939393;
+	white-space: nowrap;
+}
+
+.colFellows {
+	margin: 1rem;
+}
+
+#fellows a:hover {
+	color: #ff6b00;
+}
+
+#fellows a:hover .deco2 {
+	display: inline;
+}
+
+/* Portraits */
+
+.cardFellows {
+	height: 100%;
+	border: 4px solid black
+
+}
+
+.cardBodyFellows {
+	background-color: black;
+}
+
+.cardBodyFellows p {
+	font-size: 3rem;
+	color: #e0e0e0;
+	font-family: "anirb___";
+}
+
+.card-img-top {
+	opacity: 0.8;
+	filter: brightness(50%);
+}
+
+.card-img-top:hover {
+	opacity: 1;
+	filter: brightness(100%);
+	cursor: pointer;
+}
+
+.ajust {
+	position: relative;
+}
+
+.rewards {
+	position: absolute;
+	top: 5%;
+	left : 50%;
+	transform: translate(-50%, -10%);
+	background-color: rgba(255,255,255,0.7);
+	border-radius: 10px;
+	padding: 5px;
+
+}
+
+.rewards span {
+	color: #ff6b00;
+	font-size: 1.5rem;
+}
+
+.nameFellows {
+	color: white;
+	font-size: 4rem;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-family: "anirb___"
+}
+
+
+
+
+#dead {
+
+	font-size: 2rem;
+	position: absolute;
+	top : 10%;
+	left : 50%;
+	transform: translate(-50%);
+	color: #ff6b00;
+}
+
+#gimli {
+	text-decoration: line-through;
+	text-decoration-color: #ff6b00;
+}
+
+.card:hover .rewards{
+	display: none;
+}
+
+.card:hover #dead {
+	display: none;
+}
+
+.card:hover .nameFellows {
+	top: 80%;
+	font-size: 2rem;
+}
+
+
+/* SECTION REWARD */
+
+#reward {
+	color: white;
+}
+
+#reward img{
+	width: 200px;
+	margin-left: 3%;
+}
+
+#boutonReward {
+	padding: 15px;
+	font-size: 2rem;
+	color: #ff6b00;
+}
+
+/* HUNTERS */
+
+.likeBtn {
+	width: 120px;
+}
+
+#textHunters {
+	font-family: "anirb___";
+	font-size: 2rem;
+}
+
+#textHunters p, #textHunters a {
+	margin-bottom: 0;
+}
+
+#textHunters h5 {
+	color: #ff6b00;
+	font-size: 3.5rem;
+	margin-bottom: 0;
+}
+
+.imgHunters {
+	width: 200px;
+}
+
+/* RING */
+
+.ringWhite {
+	color: white;
+}
+
+.card-header {
+	background-color: #ff6b00;
+}
+
+.cardRing {
+	border-top: 0;
+	border-right: 0;
+	border-left: 0;
+	border-bottom: 5px solid #ff6b00;
+	border-radius: 5px;
+}
+
+.cardBodyRing {
+	background-color: #e0e0e0;
+	font-family: "anirb___";
+	font-size: 2rem;
+}
+
+table {
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 25px;
+}
+th {
+	border-bottom: 4px solid #212529;
+
+}
+
+td {
+	border-bottom: 2px solid #939393;
+}
+
+th, td {
+
+	padding: 5px 0 5px 5px;
+}
+
+
+#quoteGollum {
+	font-size: 2rem;
+}
+
+
+#teteDeGolum {
+	width: 150px;
+	height: 150px;
+	margin-left: 3%;
+
+}
+
+
+/* JOIN */
+
+#imageJoin1 {
+	width: 400px;
+}
+
+#imageJoin2 {
+	width: 400px;
+}
+
+#textJoin {
+	font-family: "anirb___";
+	font-size: 1.8rem;
+}
+
+#join {
+	overflow: hidden;
+}
+
+#paraJoin p {
+	color: #ff6b00;
+	font-size: 1.5rem;
+}
+
+#paraJoin button {
+	color: #ff6b00;
+	background-color: #212529;
+	padding: 1rem;
+}
+
+#paraJoin button:hover {
+	background-color: initial;
+	border: 2px solid #212529;
+	cursor: pointer;
+
+}
+
+/* FORM */
+
+input, select {
+	height: 50px;
+}
+
+select {
+	width: 100%;
+}
+
+/* FOOTER */
+
+#foot {
+	background-color: #ff6b00;
+}
+
+footer ul {
+	list-style-type: none;
+	margin-top: 1rem;
+}
+
+footer li {
+	margin-bottom: 5%;
+	margin-top: 5%;
+}
+
+footer a {
+	text-decoration: none;
+	color: rgba(255,255,255,.75);
+}
+
+#logoFooter {
+	margin-top: 0;
+}
+
+
+
+/* RESPONSIVE D*/
+@media (max-width: 1550px) {
+
+	#navBar a{
+	font-size: 1.5rem;
+}
+
+#navBar p{
+	font-size: 1.5rem;
+}
+
+}
+
+@media (max-width: 1250px) {
+
+#carouselCaption {
+
+	font-size: 4rem;
+
+}
+
+.darkVador {
+
+	font-size: 2.5rem;
+}
+
+#navBar a{
+	font-size: 1rem;
+}
+
+#navBar p{
+	font-size: 1rem;
+}
+
+#logoFooter img {
+	width: 175px;
+}
+
+
+@media (max-width: 992px) {
+
+#carouselCaption {
+
+	font-size: 3rem;
+
+}
+
+.darkVador {
+
+	font-size: 2rem;
+}
+
+
+
+@media (max-width: 768px) {
+
+#carouselCaption {
+
+	font-size: 2rem;
+
+}
+
+.darkVador {
+
+	font-size: 1.5rem;
+}
+
+
+@media (max-width: 576px) {
+
+#carouselCaption {
+
+	font-size: 1.5rem;
+
+}
+
+.darkVador {
+
+	font-size: 1rem;
+}
+
+@media (max-width: 350px) {
+
+#carouselCaption {
+
+	font-size: 1rem;
+
+}
+
+.darkVador {
+
+	font-size: 0.8rem;
+}
+
+#boutonJoin {
+	font-size: 0.8rem;
+}
